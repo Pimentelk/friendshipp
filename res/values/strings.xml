@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">friendshipp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_app">FriendShipp</string>
+    <string name="title_activity_features">Features</string>
+    <string name="title_activity_profile_images">ProfileImages</string>
+    <string name="title_activity_profile_about">ProfileAbout</string>
+    <string name="title_activity_rewards_notice">RewardsNotice</string>
+    <string name="title_activity_begin">BeginActivity</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_profile_view">My Profile</string>
+    <string name="title_activity_friends_received">FriendsReceived</string>
+    <string name="title_activity_friend_received_notice">FriendReceivedNotice</string>
+    <string name="title_activity_friend_revealed">FriendRevealed</string>
+    <string name="title_activity_friend_shipp">FriendShipp</string>
+    <string name="title_activity_friend_chat_board">FriendChatBoard</string>
+    <string name="title_activity_friend_chat">FriendChat</string>
+    <string name="title_activity_rewards">Rewards</string>
+    <string name="title_activity_rewards_form">RewardsForm</string>
+    <string name="title_activity_friend_profile">FriendProfile</string>
+    <string name="title_activity_activity_log">ActivityLog</string>
+    <string name="title_activity_options">OptionsActivity</string>
+    <string name="login_button">Login</string>
+    <string name="app_id">281424832005742</string>
+    <string name="get_started">To get started, log in using Facebook</string>
+    <string name="title_activity_facebook_login">FacebookLogin</string>
+	<string name="action_search">Search</string>
+	<string name="about_message">Write something about yourself, this will be visible to your friends.</string>
+	<string name="next_button">Next</string>
+	<string name="back_button">Back</string>
+	<string name="begin_button">Begin</string>
+	<string name="shipp_button">Shipp Friend</string>
+	<string name="rewards_notice">Once you successfully create 5 friendshipps, you can begin to earn rewards for each additional frienship you create. These rewards can be used as credit in the app store. We reward you as a way to say thanks for making the world a friendlier place.</string>
+	<string name="begin_message">Now you can ship your friends and start creating friendships!</string>
+	<string name="profile_images_message">Pick up to 5 photos for your profile.</string>
+	<string name="facebook_images">Choose From Facebook</string>
+	<string name="cam_images">Choose From Camera Roll</string>
+	<string name="about_me">About Me</string>
+	<string name="action_settings">Settings</string>
+	<string name="my_profile">My Profile</string>
+	<string name="friends_received">Friends Received</string>
+	<string name="friend_chat">Friend Chat</string>
+	<string name="rewards">Rewards</string>
+	<string name="options">Options</string>
+	<string name="contentDescription">Description</string>
+	<string name="choose_ship">Choose a friend to ship</string>
+	<string name="choose_receive">Choose a friend to receive</string>
+	<string name="title_activity_album_layout">Album Layout</string>
+	<string name="facebook_url_albums">https://graph.facebook.com/33710348/albums</string>
+	<string name="facebook_url_photos">https://graph.facebook.com/[ALBUMID]/photos?</string>
+	<string name="facebook_albums">Facebook Albums</string>
+	<string name="title_activity_album_adapter">Album Adapter</string>
+	<string name="title_activity_image_grid">Images</string>
+	
+	<string-array name="nav_drawer_items">
+	    <item>Home</item>	    
+	    <item>Invite Friends</item>
+		<item>Push Notifications</item>
+		<item>Rewards</item>
+		<item>Privacy</item>
+		<item>How friendshipp Works</item>
+		<item>Terms &amp; Policies</item>
+		<item>Contact Us</item>
+		<item>Logout</item>
+	</string-array>
+	
+	<!-- Content Description -->
+	<string name="desc_list_item_icon">Item Icon</string>
+</resources>

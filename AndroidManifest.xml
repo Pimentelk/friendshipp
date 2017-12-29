@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.friendshipp.friendshipp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/android:Theme.Holo.Light" >
+        <activity
+            android:name="com.friendshipp.friendshipp.Splash"
+            android:label="@string/app_name"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity 
+            android:name="com.facebook.LoginActivity"  
+            android:label="@string/app_name" />
+        		
+        <activity
+            android:name="com.friendshipp.friendshipp.Features"
+            android:label="@string/title_activity_features" >
+        </activity>
+        <activity
+            android:name="com.friendshipp.friendshipp.ProfileImages"
+            android:label="@string/title_activity_profile_images" >
+        </activity>
+        <activity
+            android:name="com.friendshipp.friendshipp.ProfileAbout"
+            android:label="@string/title_activity_profile_about" >
+        </activity>
+        <activity
+            android:name="com.friendshipp.friendshipp.RewardsNotice"
+            android:label="@string/title_activity_rewards_notice" >
+        </activity>
+        <activity
+            android:name="com.friendshipp.friendshipp.BeginActivity"
+            android:label="@string/title_activity_begin" >
+        </activity>
+        <activity
+            android:name="com.friendshipp.friendshipp.Dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/Theme.AppCompat.Light" >
+        </activity>
+        <activity
+            android:name="com.friendshipp.friendshipp.ProfileView"
+            android:label="@string/title_activity_profile_view" >
+        </activity>
+        <activity
+            android:name="com.friendshipp.friendshipp.FriendsReceived"
+            android:label="@string/title_activity_friends_received" >
+        </activity>
+        <activity
+            android:name="com.friendshipp.friendshipp.FriendReceivedNotice"
+            android:label="@string/title_activity_friend_received_notice" >
+        </activity>
+        <activity
+            android:name="com.friendshipp.friendshipp.FriendRevealed"
+            android:label="@string/title_activity_friend_revealed" >
+        </activity>
+        <activity
+            android:name="com.friendshipp.friendshipp.FriendChatBoard"
+            android:label="@string/title_activity_friend_chat_board" >
+        </activity>
+        <activity
+            android:name="com.friendshipp.friendshipp.FriendChat"
+            android:label="@string/title_activity_friend_chat" >
+        </activity>
+        <activity
+            android:name="com.friendshipp.friendshipp.RewardsActivity"
+            android:label="@string/title_activity_rewards" >
+        </activity>
+        <activity
+            android:name="com.friendshipp.friendshipp.RewardsForm"
+            android:label="@string/title_activity_rewards_form" >
+        </activity>
+        <activity
+            android:name="com.friendshipp.friendshipp.FriendProfile"
+            android:label="@string/title_activity_friend_profile" >
+        </activity>
+        <activity
+            android:name="com.friendshipp.friendshipp.ActivityLog"
+            android:label="@string/title_activity_activity_log" >
+        </activity>
+        <activity
+            android:name="com.friendshipp.friendshipp.OptionsActivity"
+            android:label="@string/title_activity_options" >
+        </activity>
+        <activity
+            android:name="com.friendshipp.friendshipp.FacebookLogin"
+            android:label="@string/title_activity_facebook_login" >
+        </activity>
+        <activity
+            android:name="com.friendshipp.friendshipp.AlbumLayout"
+            android:label="@string/title_activity_album_layout" > 
+        </activity>
+        <activity
+            android:name="com.friendshipp.friendshipp.ImageGrid"
+            android:label="@string/title_activity_image_grid" > 
+        </activity>
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+    </application>
+
+</manifest>
